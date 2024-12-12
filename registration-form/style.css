@@ -1,0 +1,80 @@
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height:80vh;
+   background-color: #bcaaa4;
+  
+}
+.container{
+    background-color: #ffd54f;
+    padding:15px;
+    border-radius: 10px;
+    width:60%;
+    margin-top:20px;
+
+}
+.registration{
+font-family: Arial, Helvetica, sans-serif;  
+  text-align:center;
+  border-bottom:2px dotted blue;
+  font-weight:bold;
+  font-size:25px;
+
+}
+span{
+    font-weight:bold;
+    margin-bottom:10px;;
+}
+form .container2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+form .container2 .inputbox {
+width:calc(100%/2 - 20px);
+margin:10px;
+}
+form .container2 .inputbox input{
+    height:45px;
+    width:100%;
+    border-radius: 10px;;
+    
+}
+#lastinput{
+    width:100%;
+    text-align: center;
+font-size: 25px;
+border:none;
+color:#000000;
+background-color: #90caf9;
+border-radius:10px;
+font-weight:bold;
+padding:13px;
+margin-top:10px;
+
+}
+.redirect-h1{
+    animation:move 4s infinite;
+    position: relative;
+    color:#194d00;
+    text-shadow:0 0 20px #0000ff;
+}
+
+@keyframes move{
+    from{left:0px;}
+    to{left:600px;}
+}
+.redirect-p1{
+    margin-top: 150px;
+    margin-right:400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+    text-align: center;
+    color:rgb(255, 0, 123);
+    text-shadow: 0 0 50px #0000ff;
+}
+.redirect-body{
+    box-shadow: 10px 0 40px #0000ff inset;
+}
